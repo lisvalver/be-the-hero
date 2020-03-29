@@ -21,6 +21,7 @@ export default function Detail() {
             subject: `Herói do caso ${incident.title}`,
             recipients: [incident.email],
             body: message,
+            
         })
     }
 
